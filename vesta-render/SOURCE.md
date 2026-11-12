@@ -104,3 +104,13 @@
 | Agensi 包 SHA-256 | `vesta-render-v0.1.3-agensi.zip` | `31126970FA30E563B9DBDBDBC496F248D8EBA4A402610E71DB824A373DC5EE77` |
 
 上架页面显示：Security scanned 通过、Free、分类 Research & Analysis、标签含 vesta / crystallography / materials-science / cif。
+
+## 目录位置（2026-11-12 调整）
+
+| 形态 | 地址 |
+| --- | --- |
+| 正本（canonical） | <https://github.com/dhd78/skills/tree/main/vesta-render> |
+| 镜像 | <https://github.com/dhd78/many-crafts/tree/main/vesta-bridge/skill> |
+| 旧路径 | `many-crafts/vesta-render/` 仅保留 README 指针，旧链接仍可用 |
+
+以后改版先改 skills 正本，再同步镜像。
