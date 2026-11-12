@@ -7,6 +7,7 @@ Agent skills for `CLAUDE.md`-style hosts (Claude Code, Cursor, Codex CLI, Copilo
 | Directory | What it does | Works with |
 | --- | --- | --- |
 | [`news-daily`](news-daily/) | Produces a ~50-item cross-region, cross-field news digest: one line per item, clickable sources, confidence grading and a self-check table. Triggered on demand — "make today's digest", "what's happening in the world". | Claude Code, Cursor, Codex CLI, DSH, any host that reads `SKILL.md` |
+| [`pvz-play`](pvz-play/) | Plays *Plants vs. Zombies* 1.0.0.1051 through a local HTTP bridge: read the board, plant/shovel, pick seeds, start levels and drive the minigames. Requires Windows, Python 3.9+, `pvztools` and the game, all installed by the user. | Claude Code, Cursor, Codex CLI, DSH (Windows only) |
 | [`farmer-bridge`](farmer-bridge/) | Drives *The Farmer Was Replaced* through a local BepInEx bridge: read farm/grid/tech state, write and run game code, load a save. Requires the game, BepInEx 5.4.23.6 and the FarmerBridge 0.1.3+ DLL installed by the user. Also on [Agensi](https://www.agensi.io/skills/farmer-bridge) (free). | Claude Code, Cursor, Codex CLI, DSH (Windows only) |
 
 ## Install
